@@ -1,0 +1,4 @@
+class Config:
+    SECRET_KEY = '4ea68e6611bd3d759466e7a70c3e64cc8d7aecbbc311ce353c5ea64a387104e1'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///cms.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
